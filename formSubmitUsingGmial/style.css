@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1f242d;
+}
+.Contact h2 {
+  font-size: 40px;
+  text-align: center;
+  color: azure;
+  margin-bottom: 10px;
+}
+.Contact form {
+  width: 600px;
+  text-align: center;
+}
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+.field .item {
+  width: 100%;
+  padding: 18px;
+  background: transparent;
+  border: 2px solid skyblue;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin: 12px 0;
+}
+.field .item::placeholder {
+  color: rgb(187, 187, 187);
+}
+
+.field .error-text {
+  color: red;
+  size: 14.5px;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+form .textarea-field .item {
+  /* width: 600px; */
+  resize: none;
+}
+form .textarea-field .error-text {
+  margin-top: -10px;
+}
+form button {
+  padding: 12px 32px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: rgb(140, 208, 235);
+  box-shadow: 0 0 10px;
+  color: #6a6a6a;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  box-shadow: none;
+}

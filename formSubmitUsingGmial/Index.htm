@@ -1,0 +1,155 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with html ,css & Javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="Contact">
+      <h2>Contact Me!</h2>
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              id="name"
+              placeholder="Full name"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Full name can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Email"
+              placeholder="Email Address"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Email can't be blank</div>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Phone Number"
+              placeholder="Phone Number"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Phone can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Subject"
+              placeholder="Subject"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Full name can't be blank</div>
+          </div>
+        </div>
+
+        <div class="textarea-field field">
+          <textarea
+            name="text"
+            id="textarea"
+            placeholder="Your massage"
+            cols="30"
+            rows="10"
+            autocomplete="off"
+            class="item"
+          >
+          </textarea>
+          <div class="error-text">massage can't be blank</div>
+        </div>
+        <button type="submit">Send massage</button>
+      </form>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with html ,css & Javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <section class="Contact">
+      <h2>Contact Me!</h2>
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              id="name"
+              placeholder="Full name"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Full name can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Email"
+              placeholder="Email Address"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Email can't be blank</div>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Phone Number"
+              placeholder="Phone Number"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Phone can't be blank</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              id="Subject"
+              placeholder="Subject"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-text">Full name can't be blank</div>
+          </div>
+        </div>
+
+        <div class="textarea-field field">
+          <textarea
+            name="text"
+            id="textarea"
+            placeholder="Your message"
+            cols="30"
+            rows="10"
+            autocomplete="off"
+            class="item"
+          ></textarea>
+          <div class="error-text">message can't be blank</div>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
